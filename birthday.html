@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>	happy birthday Evance</title>
+	<style>
+		html{
+			padding: 1px;
+			margin: 1px;
+		}
+		body{
+			padding: 8px;
+			background: green;
+			font-size: 15pt;
+			margin: 0;
+			font-family: sans-serif;
+		}
+		p{
+			padding: 0;
+			margin: 0;
+		}
+		.img-circle{
+			border: 2px solid black;
+			border-radius: 70%;
+			border: 3px solid black;
+		}
+		.section{
+			background-color: #fff;
+			padding: 10px;
+			border-radius: 8px;
+			text-align: center;
+		}
+		h1{
+			color: yellow;
+		}
+		button{
+			color: red;
+			font-family: cursive;
+			font-size:20pt; 
+		}
+		script{
+			font-size: 20pt;
+			color: red;
+			font-family: cursive;
+		}
+		.copyright{
+			font-size: 8pt;
+			color: grey;
+			text-align: right;
+		}
+		.form{
+			text-align: center;
+			color: grey;
+			border: 1px;
+			border-radius: 10px;
+		}
+		.cake.img{
+			height: 20px;
+			width: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	 <p style="text-align: left;font-size: 65px;font-family: sans-serif;color: yellow;">CELEBRATING 20 YEARS OF EXISTANCE</p>
+	<div id="header" class="section 1"><img alt=" EVANCE OMOLO" class="img-circle"src="C:\Users\hp\Pictures\Me\u60tzn.jpg"><p style="font-size: 30pt;color: red;"><strong>EVANCE OMOLO</strong></p>
+   
+    
+	</div>
+
+	<div class="section">
+		<nav>
+			<ul>
+				<li><a href="aboutme.html">About Me</a></li>
+			</ul>
+		</nav>
+	</div>
+	<h1>WISH ME HAPPY 20TH BIRTHDAY!</h1>
+	<button onclick="typeWriter()">click to wish me</button>
+	<p id="demo"></p>
+	<div class="box">
+	<script>
+		var i = 0;
+		var txt  = 'HAPPY 20th BIRTHDAY EVANCE!!!!';
+		var speed = 100;
+
+		function typeWriter(){
+			if (i < txt.length){
+				document.getElementById("demo").innerHTML +=txt.charAt(i);
+				i++;
+				setTimeout(typeWriter,speed);
+			}
+		}
+	</script>
+	<div class="section">
+		<div class="first"><h1 class="first" style="color: red;">Hey<span id="name"> Fams</span></h1>
+			<p class="second" id="greeting-text"><h3 style="color: green;">I'm glad you visited</h3></p>
+			<div class="third"><p><h3 style="color: green;">It's my birthday today</h3></p>
+
+			</div>
+		</div>
+		
+	</div>
+	<div class="Evance-dp" style="color: yellow">
+		<p class=>On this day at exactly 1:00 am ,a legend was born</p>
+		<p class=>Tt was neither my will nor my mother's to be born on January 1st</p>
+		<p class=>It was all <strong> Gods' </strong>plan people</p>
+		<p class=>That's all i can say</p>
+		
+	</div>
+	<div class="section">
+		<img src="C:\Users\hp\Pictures\img\IMG_20201025_160721.jpg" alt="Evance" class="img-circle">
+		<p style="font-variant: small-caps;"><strong>WUOD LILI</strong></p>
+		<p style="color: red; font-size: 20pt;font-family: cursive;">Happy Birthday To Me</p>
+		
+	</div>
+	<div class="section">
+		<img src="C:\Users\hp\Pictures\img\Screenshot_20201221-114650.jpg" class="cake-img">
+        <img src="C:\Users\hp\Pictures\img\Screenshot_20201221-114650.jpg" class="cake-img">
+       
+	</div>
+    <div class="section" style="background: yellow;color: green;">
+		<p><strong style="font-family: serif;">From Dad::</strong> Happy birthday my first born son as you turn one year older</p>
+		<p><strong style="font-family: serif;">From Mom::</strong> We thank God for allowing you to turn a year older. Indeed you are a legend. Love you.</p>
+		<p><strong style="font-family: serif;">From Anonymous::</strong> HBD Evance , kumbe wewe pia ulizaliwa? Anyway I'm with you today.</p>
+		
+	</div>
+
+	<div class="section">
+		<p style="font-variant: small-caps;"><strong>Send something via M-pesa</strong></p>
+		<svg class="face" height="100" width="100">
+			<circle cx="50" cy="50" r="50" fill="#FDD835"/>
+			<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+			<circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+			<circle cx="30" cy="30" r="5" fill="#000000"/>
+			<circle cx="70" cy="30" r="5" fill="#000000"/>
+
+			<path d="M 30 70 q 20 30 40 0" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+			
+		</svg>
+		
+	</div>
+	
+
+	<form class="form">
+			<input type="text" name="name" placeholder="Name" required></br>
+			<input type="amount" name="amount" placeholder="amount" required></br>
+			<textarea name="message" placeholder="Messege" required>
+			</textarea>
+			<input type="submit"
+			 value="send" class="submit"/>
+		</form>
+	<div class="copyright">&copy; 2020 @evanceomolo. All rights reserved.
+	</div>
+
+</body>
+</html>
